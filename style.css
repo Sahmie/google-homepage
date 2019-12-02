@@ -2,3 +2,10 @@
     display: block;
     text-align: center;
 }
+
+/* navigation links */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
