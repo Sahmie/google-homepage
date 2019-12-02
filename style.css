@@ -3,6 +3,7 @@
     text-align: center;
     margin: auto;
     width: 50%;
+    padding-top: 40px;
 }
 
 /* navigation links */
@@ -22,6 +23,7 @@ li{
 
 nav{
     float: right;
+    padding-top: 10px;
 }
 a {
     text-decoration: none;
@@ -78,20 +80,61 @@ padding-top: 109px;
 margin-left: auto;
 margin-right: auto;
 }
+#searchform{
+    padding-top: 25px;
+}
+#sfrm{
 
-#sfrm {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    /* display: inline-block; */
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    font: 400 13.3333px Arial;
+     /* padding: 1px 0px; */
+    border-width: 1px;
+    /* border-style: inset; */
+    border-color: initial;
+    border-image: initial;
     font: 16px arial,sans-serif;
-line-height: 34px;
-height: 34px !important;
-background-color: transparent;
-/* border: none; */
-margin: 0;
-padding: 0;
-color: rgba(0,0,0,.87);
-word-wrap: break-word;
-outline: none;
-/* display: flex;
-flex: 100%; */
--webkit-tap-highlight-color: transparent;
-margin-top: -37px;
+    line-height: 34px;
+    height: 34px !important;
+    background-color: transparent;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 15px;
+}
+
+#buttons{
+    padding-top: 35px;
+    
+}
+input.class{
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+background-color: #f2f2f2;
+border: 1px solid #f2f2f2;
+border-radius: 4px;
+color: #5F6368;
+font-family: arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 246px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+user-select: none;
 }
